@@ -1,0 +1,102 @@
+.app-header {
+  padding: 32px 0 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.section {
+  padding: 24px 0;
+}
+
+.section h2 {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.empty-state {
+  padding: 32px;
+  text-align: center;
+  color: var(--text);
+}
+
+/* Song list table */
+.song-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.song-list thead th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.song-list .col-index {
+  width: 40px;
+  text-align: center;
+}
+
+.song-list .col-length {
+  width: 80px;
+  text-align: right;
+}
+
+/* Song item row */
+.song-item td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.song-item:hover td {
+  background: var(--hover);
+}
+
+.song-item .song-index {
+  text-align: center;
+  color: var(--text);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.song-item .song-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.song-item .song-title .title {
+  color: var(--text-h);
+  font-weight: 500;
+}
+
+.song-item .song-title .artist {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.song-item .song-album {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.song-item .song-length {
+  text-align: right;
+  color: var(--text);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--mono);
+}
